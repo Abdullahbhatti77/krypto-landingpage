@@ -1,0 +1,33 @@
+#view-our-pricing{
+    background-color: #312964;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    padding: 12px 36px;
+    text-align: center;
+    text-decoration: none;
+    /* font-family: Roboto; */
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.5px;
+    cursor: pointer;
+}
+#analytics{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.5px;
+    color: #EBEBEB
+}
+@media (max-width: 375px) {
+    #view-our-pricing {
+        padding: 10px 24px; /* Adjust padding for smaller screens */
+        font-size: 18px; /* Reduce font size */
+        line-height: 24px;
+    }
+
+    #analytics {
+        font-size: 18px; /* Reduce font size */
+        line-height: 24px;
+    }
+}

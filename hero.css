@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    
+    overflow-x: hidden;
+    background-color: #010922;
+}
+.top-left-shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('./assets/heroshadow.png');
+    z-index: 1;
+}
+.navbar-nav .nav-item a {
+    margin-right: 30px;
+}
+li{
+    color: white;
+}
+#buttons-section{
+    display: flex;
+}
+#hero-title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    color: #EBEBEB;
+}
+#hero-text{
+    margin-top: 20px;
+    /* font-family: Roboto;  */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.5px;
+    color: #EBEBEB;
+    ;
+}
+.navbar .nav-link {
+    color: white;
+}
+
+/* Change text color to white for "Krypto" text */
+.navbar .navbar-text {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.5px;
+}
+#buy-nft{
+    background-color: #312964;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 12px 36px;
+    text-align: center;
+    text-decoration: none;
+    /* font-family: Roboto; */
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.5px;
+    cursor: pointer;
+}
+#sell-nft{
+    background-color: #010922;
+    border: 1px solid #8AD1D2;
+    border-radius: 50px;
+    color: white;
+    padding: 12px 36px;
+    text-align: center;
+    text-decoration: none;
+    /* font-family: Roboto; */
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.5px;
+    cursor: pointer;
+}
+#featured{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #EBEBEB;
+    justify-content: center;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+/* Style for the icons */
+.icon {
+    font-size: 48px;
+}
+
+@media screen and(max-width: 375px) {
+    /* Reduce padding for small screens */
+    .navbar-text {
+        font-size: 18px;
+    }
+    .display-4 {
+        font-size: 24px;
+    }
+    .lead {
+        font-size: 16px;
+    }
+    
+
+    /* Reduce image width for small screens */
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #buttons-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hero-title {
+        font-size: 64px; 
+        line-height: 70.4px;
+        text-align: center;
+    }
+
+    #hero-text {
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    #buy-nft,
+    #sell-nft {
+        padding: 12px 16px; 
+        font-size: 14px; 
+        line-height: 18px; 
+    }
+}

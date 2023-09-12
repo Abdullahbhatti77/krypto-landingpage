@@ -1,0 +1,55 @@
+#footer-color{
+    color: white;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    /
+    
+}
+
+.email-input {
+    color: black;
+    background-color: #8F8FDB;
+    border: #8F8FDB;
+    flex: 1;
+    margin-right: 10px;
+    border-radius: 50px;
+    padding: 12px 18px;
+
+}
+.submit-button {
+    color: white;
+    background-color: #312964;
+    border: #312964;
+    border-radius: 50px;
+    padding: 12px 18px;
+    cursor: pointer;
+}
+#krypto{
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+@media (max-width: 375px) {
+    .input-container {
+        flex-direction: column; /* Stack elements vertically */
+        max-width: 100%; /* Full width for smaller screens */
+    }
+
+    .email-input {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+
+    .submit-button {
+        margin-top: 10px; /* Add top margin for spacing */
+    }
+
+    #krypto {
+        font-size: 20px; /* Reduce font size for smaller screens */
+    }
+}
